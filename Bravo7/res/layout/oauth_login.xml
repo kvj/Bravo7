@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="match_parent" android:orientation="vertical">
+    <EditText android:layout_height="wrap_content" android:text="" android:id="@+id/enter_code" android:layout_width="match_parent" android:singleLine="true"></EditText>
+    <Button android:text="Verify" android:id="@+id/verify_code" android:layout_height="wrap_content" android:layout_width="match_parent"></Button>
+    <WebView android:id="@+id/login_web" android:layout_width="match_parent" android:layout_height="match_parent"></WebView>
+</LinearLayout>

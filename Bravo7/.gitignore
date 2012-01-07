@@ -1,0 +1,5 @@
+gen
+local.properties
+bin
+*.apk
+thumbs.db

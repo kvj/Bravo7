@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/templates_reload" android:title="Reload" android:icon="@drawable/refresh"/>
+  <item android:id="@+id/templates_search" android:title="Search" android:icon="@drawable/search"/>
+  <item android:id="@+id/templates_fav" android:title="Favorites" android:icon="@drawable/fav"/>
+  <item android:id="@+id/templates_unsent" android:title="Unsent" android:icon="@drawable/unsent"/>
+  <item android:id="@+id/templates_login" android:title="Login" android:icon="@drawable/login"/>
+  <item android:id="@+id/templates_location" android:title="Location" android:icon="@drawable/location"/>
+  <item android:id="@+id/templates_preferences" android:title="Preferences" android:icon="@drawable/tools"/>
+  <item android:id="@+id/log_view_menu" android:title="Log" android:icon="@drawable/tools"/>
+</menu>

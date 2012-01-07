@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/search_day_left" android:title="Day left" android:icon="@drawable/day_left"/>
+  <item android:id="@+id/search_day_right" android:title="Day right" android:icon="@drawable/day_right"/>
+  <item android:id="@+id/search_last_hour" android:title="Last hour" android:icon="@drawable/last_hour"/>
+  <item android:id="@+id/search_today" android:title="Today" android:icon="@drawable/today"/>
+</menu>

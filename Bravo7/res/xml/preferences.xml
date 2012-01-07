@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="General preferences"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <PreferenceCategory android:title="Intervals:">
+    <EditTextPreference android:key="refresh_delay" android:title="Refresh interval" android:defaultValue="@string/refresh_delay"/>
+    <EditTextPreference android:key="send_delay" android:title="Send interval" android:defaultValue="@string/send_delay"/>
+    <EditTextPreference android:key="error_delay" android:title="Re-send interval" android:defaultValue="@string/error_delay"/>
+    <EditTextPreference android:key="location_accuracy" android:title="Location accuracy" android:defaultValue="@string/location_accuracy"/>
+    <EditTextPreference android:key="location_timeout" android:title="Location timeout" android:defaultValue="@string/location_timeout"/>
+    <EditTextPreference android:key="cron_days" android:title="Request cron in days" android:defaultValue="@string/cron_days"/>
+    <EditTextPreference android:key="lv_widget" android:title="Widget to show in LV" android:defaultValue="@string/lv_widget"/>
+  </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Favorite" android:id="@+id/checkin_fav"></item>
+    <item android:title="Remove" android:id="@+id/checkin_remove"></item>
+    <item android:title="Bind" android:id="@+id/checkin_bind"></item>
+    <item android:title="Create child" android:id="@+id/checkin_create_child"></item>
+    <item android:title="Create parent..." android:id="@+id/checkin_create_with"></item>
+</menu>
